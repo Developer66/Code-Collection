@@ -1,8 +1,6 @@
 {
-  "Herausgeber": "Developer66",
-  "Version":
-  {
-    "Name": "1.0",
-    "Date": "24.5.2017"
+  "author": "Developer66",
+  "version": "1.0",
+  "Date": "24.5.2017"
   }
 }
