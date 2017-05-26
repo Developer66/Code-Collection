@@ -37,6 +37,7 @@ See also the list of [contributors](https://github.com/Developer66/Code-Collecti
 ## License
 
 This project is licensed under the Apache License 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+Explicit reference to my name is required.
 
 ## Acknowledgments
 
