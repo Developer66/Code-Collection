@@ -11,7 +11,7 @@ Download the jar an run it. That all you need :)
 What things you need to install the software and how to install them
 
 ```
-Java 1.8 or higher (FX required)
+Java 1.8 or higher (JavaFX required)
 ```
 
 ## Changelog
@@ -40,4 +40,3 @@ This project is licensed under the Apache License 2.0 License - see the [LICENSE
 ## Acknowledgments
 
 * Pixel Duke (JMetro)
-
