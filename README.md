@@ -17,11 +17,6 @@ Java 1.8 or higher (FX required)
 ## Changelog
 See in: [Changelog](https://github.com/Developer66/Code-Collection/blob/master/changelog.txt) - Complete Changelog
 
-
-## Running the tests
-
-Download the two files from the 'test' folder and run the jar (files MUST be in the same folder)
-
 ## Built With
 
 * [Eclipse](https://www.eclipse.org/) - Java Editor
@@ -40,8 +35,7 @@ See also the list of [contributors](https://github.com/Developer66/Code-Collecti
 
 ## License
 
-This project is licensed under the Apache License 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
-Explicit reference to my name is required.
+This project is licensed under the Apache License 2.0 License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
