@@ -15,8 +15,7 @@ Java 1.8 or higher (FX required)
 ```
 
 ## Changelog
-See in: 
-* [Changelog](https://github.com/Developer66/Code-Collection/blob/master/changelog.txt) - Complete Changelog
+See in: [Changelog](https://github.com/Developer66/Code-Collection/blob/master/changelog.txt) - Complete Changelog
 
 
 ## Running the tests
