@@ -6,7 +6,7 @@ Save your code fast & easy. Use CodeCollection save your code you need every day
 
 Download the jar an run it. That all you need :)
 
-### Prerequisites
+## Prerequisites
 
 What things you need to install the software and how to install them
 
@@ -14,13 +14,18 @@ What things you need to install the software and how to install them
 Java 1.8 or higher (FX required)
 ```
 
+## Changelog
+See in: 
+* [Changelog](https://github.com/Developer66/Code-Collection/blob/master/changelog.txt) - Complete Changelog
+
+
 ## Running the tests
 
 Download the two files from the 'test' folder and run the jar (files MUST be in the same folder)
 
 ## Built With
 
-* [Eclipse](https://www.eclipse.org/) - Java editor
+* [Eclipse](https://www.eclipse.org/) - Java Editor
 * [Scenebuilder 2.0](http://www.oracle.com/technetwork/java/javase/downloads/sb2download-2177776.html) - FXML Editor
 * [H2 DB](http://www.h2database.com/html/main.html) - H2 Database Engine
 
