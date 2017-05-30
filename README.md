@@ -1,6 +1,6 @@
 # CodeCollection
 
-Save your code fast & easy. Use CodeCollection save your code you need every day.
+Save your code smart, fast & easy. Use CodeCollection save your code you need every day.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ Download the jar an run it. That all you need :)
 What things you need to install the software and how to install them
 
 ```
-Java 1.8 or higher (JavaFX required)
+JavaFX 1.8 or higher
 ```
 
 ## Changelog
@@ -29,7 +29,7 @@ Write me an email 'developer.sixtysix@gmail.com'
 
 ## Authors
 
-* **Tim Stuhler** - *Programmer* - [Developer66](https://github.com/Developer66)
+* **Tim Stuhler** - *Main Programmer* - [Developer66](https://github.com/Developer66)
 
 See also the list of [contributors](https://github.com/Developer66/Code-Collection/graphs/contributors) who participated in this project.
 
@@ -39,4 +39,4 @@ This project is licensed under the Apache License 2.0 License - see the [LICENSE
 
 ## Acknowledgments
 
-* Pixel Duke (JMetro)
+* -
