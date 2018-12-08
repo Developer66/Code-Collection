@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="style"/>
+	<classpathentry kind="src" path="fxml"/>
+	<classpathentry kind="src" path="drawable"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jsonparser.jar"/>
+	<classpathentry kind="lib" path="lib/BorderlessScene.jar"/>
+	<classpathentry kind="lib" path="lib/richtextfx-fat-0.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/h2-1.4.197.jar"/>
+	<classpathentry kind="lib" path="lib/FilterTable.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

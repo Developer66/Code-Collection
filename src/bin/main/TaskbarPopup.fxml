@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="400.0" style="-fx-background-color: #D8D8D8; -fx-background-radius: 5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imageview" cacheHint="QUALITY" fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="19.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/alert.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="356.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #FA5858;" text="X">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="date" layoutX="114.0" layoutY="14.0" prefHeight="17.0" prefWidth="174.0" text="date">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="114.0" layoutY="33.0" text="%Label.newMessage">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="message" alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="114.0" layoutY="58.0" prefHeight="70.0" prefWidth="266.0" text="text&#10;" wrapText="true">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <graphic>
+            <Hyperlink fx:id="hyperlink_download" text="%Hyperlink.download" wrapText="true" />
+         </graphic>
+      </Label>
+      <Hyperlink fx:id="hyperlink_show" layoutX="171.0" layoutY="125.0" text="%Hyperlink.show" />
+   </children>
+</Pane>

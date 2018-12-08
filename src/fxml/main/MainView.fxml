@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vboxMain" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #0277bd;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.developer66.controller.MainViewController">
+   <children>
+      <HBox alignment="CENTER_RIGHT" prefHeight="40.0">
+         <children>
+            <MenuBar style="-fx-background-color: transparent;">
+              <menus>
+                <Menu fx:id="menu_settings" mnemonicParsing="false">
+                  <items>
+                        <MenuItem fx:id="menuitem_checkforupdates" mnemonicParsing="false" text="Auf Updates prüfen" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS" />
+            <Button fx:id="button_minimize" mnemonicParsing="false" onMouseEntered="#windowButtonOnEntered" onMouseExited="#windowButtonOnExited" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: transparent; -fx-border-radius: 0;" text="-" textFill="#e0e0e0" HBox.hgrow="NEVER">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_maximize" mnemonicParsing="false" onMouseEntered="#windowButtonOnEntered" onMouseExited="#windowButtonOnExited" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: transparent; -fx-border-radius: 0;" text="+" textAlignment="CENTER" textFill="#e0e0e0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_close" alignment="CENTER" contentDisplay="TOP" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onMouseEntered="#windowButtonOnEntered" onMouseExited="#windowButtonOnExited" style="-fx-background-color: transparent; -fx-background-radius: 0;" text="×" textAlignment="CENTER" textFill="#e0e0e0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <VBox style="-fx-background-radius: 5;" VBox.vgrow="ALWAYS">
+         <children>
+            <SplitPane dividerPositions="0.5" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #e0e0e0;" VBox.vgrow="ALWAYS">
+               <items>
+                  <VBox maxWidth="250.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: fff;" VBox.vgrow="ALWAYS">
+                           <children>
+                              <AnchorPane>
+                                 <children>
+                                    <ImageView fitHeight="200.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <image>
+                                          <Image url="@/header.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="label_username" layoutX="126.0" layoutY="44.0" text="Admin">
+                                       <font>
+                                          <Font name="System Bold" size="20.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </padding>
+                                    </Label>
+                                    <BorderPane fx:id="userimageview" layoutX="14.0" layoutY="14.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" />
+                                 </children>
+                              </AnchorPane>
+                              <Button alignment="BOTTOM_LEFT" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#showDashboard" onMouseEntered="#DrawerMenuItemMouseEntered" onMouseExited="#DrawerMenuItemMouseExited" style="-fx-background-color: transparent;" text="Dashboard" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/menuicons/dashboard.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button alignment="BOTTOM_LEFT" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#showEntry" onMouseEntered="#DrawerMenuItemMouseEntered" onMouseExited="#DrawerMenuItemMouseExited" style="-fx-background-color: transparent;" text="Neuer Eintrag" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/menuicons/create.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Separator prefWidth="200.0" style="-fx-border-style: solid; -fx-border-width: 0; -fx-border-color: eee; -fx-background-color: eee;">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Separator>
+                              <Label text="Verwaltung" textFill="#ababab">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Button alignment="BOTTOM_LEFT" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#showVerwaltung" onMouseEntered="#DrawerMenuItemMouseEntered" onMouseExited="#DrawerMenuItemMouseExited" style="-fx-background-color: transparent;" text="Einträge Verwalten" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/menuicons/archive.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button alignment="BOTTOM_LEFT" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#showKategorie" onMouseEntered="#DrawerMenuItemMouseEntered" onMouseExited="#DrawerMenuItemMouseExited" style="-fx-background-color: transparent;" text="Kategorien Verwalten" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/menuicons/build.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Separator prefWidth="200.0" style="-fx-border-style: solid; -fx-border-width: 0; -fx-border-color: eee; -fx-background-color: eee;">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Separator>
+                              <Label text="Einstellungen" textFill="#ababab">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Button alignment="BOTTOM_LEFT" defaultButton="true" disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseEntered="#DrawerMenuItemMouseEntered" onMouseExited="#DrawerMenuItemMouseExited" style="-fx-background-color: transparent;" text="Einstellungen" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/menuicons/settings.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button alignment="BOTTOM_LEFT" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#share" onMouseEntered="#DrawerMenuItemMouseEntered" onMouseExited="#DrawerMenuItemMouseExited" style="-fx-background-color: transparent;" text="Teilen" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/menuicons/share.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <HBox minHeight="40.0" VBox.vgrow="NEVER">
+                           <children>
+                              <Label fx:id="label_currentView" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: fff;" text="Current View" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <graphic>
+                                    <Label text="⚫">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </graphic>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane fx:id="scrollpane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+                           <content>
+                              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #e0e0e0;" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </items>
+            </SplitPane>
+            <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" style="-fx-background-color: #e0e0e0;">
+               <children>
+                  <Label fx:id="label_leftstatus" maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="Left status" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="11.0" fx:id="x3" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+                  <Label fx:id="label_rightstatus" font="$x3" maxWidth="-1.0" text="Right status" HBox.hgrow="NEVER" />
+               </children>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="5.0" />
+         </VBox.margin>
+      </VBox>
+   </children>
+</VBox>
