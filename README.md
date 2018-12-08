@@ -1,10 +1,14 @@
 # CodeCollection
 
 Store your code intelligently, quickly and easily. 
+
 Use CodeCollection and save your code that you once created and want to find later without spending hours searching through old projects or files. 
+
 CodeCollection is a simple and cool way to collect all code snippets and create a powerful library. The ease of use allows anyone to use the program and also allows sharing between several people. 
 The lightweight jar and a database is everything you need. Both files in the same folder and there you go.
-If you do not have a database, the installation wizard guides you through some simple steps and you can start right away. Just test it ... Download the test files in the DEMO folder and run the program to get an idea
+If you do not have a database, the installation wizard guides you through some simple steps and you can start right away. 
+
+Just test it ... Download the test files in the DEMO folder and run the program to get an idea
 
 ## Getting Started
 
