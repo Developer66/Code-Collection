@@ -10,6 +10,8 @@ If you do not have a database, the installation wizard guides you through some s
 
 Just test it ... Download the test files in the DEMO folder and run the program to get an idea
 
+![DashboardImage](https://raw.githubusercontent.com/Developer66/Code-Collection/master/demo/CodeCollectionDashboard.png)
+
 ## Getting Started
 
 Download the jar an run it... Follow the assistent and have fun. That all you need :)
