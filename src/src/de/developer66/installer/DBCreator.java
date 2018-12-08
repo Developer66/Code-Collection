@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import de.developer66.main.DBHelper;
+import de.developer66.helper.DBHelper;
 
 public class DBCreator {
 

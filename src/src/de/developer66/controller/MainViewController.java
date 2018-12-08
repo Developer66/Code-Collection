@@ -4,9 +4,9 @@ import java.awt.Desktop;
 import java.net.URI;
 import java.text.DecimalFormat;
 
-import de.developer66.main.DBHelper;
+import de.developer66.helper.DBHelper;
+import de.developer66.helper.UpdateHelper;
 import de.developer66.main.MainView;
-import de.developer66.main.UpdateHelper;
 import de.developer66.util.Toast;
 import javafx.concurrent.Task;
 import javafx.concurrent.WorkerStateEvent;

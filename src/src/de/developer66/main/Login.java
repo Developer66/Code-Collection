@@ -8,6 +8,7 @@ import java.sql.Statement;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+import de.developer66.helper.DBHelper;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

@@ -6,6 +6,8 @@ import java.util.TimerTask;
 
 import borderless.BorderlessScene;
 import de.developer66.controller.MainViewController;
+import de.developer66.helper.DBHelper;
+import de.developer66.helper.UpdateHelper;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.Event;

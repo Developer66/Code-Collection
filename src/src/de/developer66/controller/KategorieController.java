@@ -5,9 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Optional;
 
-import de.developer66.main.DBHelper;
-import de.developer66.main.Kategorie;
+import de.developer66.helper.DBHelper;
 import de.developer66.main.MainView;
+import de.developer66.util.Kategorie;
 import de.developer66.util.Toast;
 import javafx.application.Platform;
 import javafx.fxml.FXML;

@@ -1,7 +1,8 @@
-package de.developer66.main;
+package de.developer66.util;
 
 import java.util.Date;
 
+import de.developer66.main.MainView;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;

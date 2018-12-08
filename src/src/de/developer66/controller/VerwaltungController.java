@@ -18,10 +18,10 @@ import org.google.jhsheets.filtered.tablecolumn.FilterableDateTableColumn;
 import org.google.jhsheets.filtered.tablecolumn.FilterableIntegerTableColumn;
 import org.google.jhsheets.filtered.tablecolumn.FilterableStringTableColumn;
 
-import de.developer66.main.DBHelper;
-import de.developer66.main.Entry;
+import de.developer66.helper.DBHelper;
 import de.developer66.main.Error;
 import de.developer66.main.MainView;
+import de.developer66.util.Entry;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

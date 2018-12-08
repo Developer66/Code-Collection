@@ -1,4 +1,4 @@
-package de.developer66.main;
+package de.developer66.helper;
 
 import java.awt.Desktop;
 import java.io.BufferedInputStream;
@@ -17,6 +17,9 @@ import java.nio.charset.Charset;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import de.developer66.main.Error;
+import de.developer66.main.MainView;
+import de.developer66.main.TaskbarPopup;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.concurrent.Task;

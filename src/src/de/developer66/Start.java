@@ -3,8 +3,8 @@ package de.developer66;
 import java.io.File;
 import java.util.Locale;
 
+import de.developer66.helper.DBHelper;
 import de.developer66.installer.Installer;
-import de.developer66.main.DBHelper;
 import de.developer66.main.Login;
 import javafx.application.Application;
 import javafx.stage.Stage;

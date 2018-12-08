@@ -1,4 +1,4 @@
-package de.developer66.main;
+package de.developer66.util;
 
 public class Jahresverlauf {
 	private int month;

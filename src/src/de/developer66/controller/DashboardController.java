@@ -6,11 +6,11 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-import de.developer66.main.DBHelper;
-import de.developer66.main.EntryCategorieCount;
-import de.developer66.main.Jahresverlauf;
+import de.developer66.helper.DBHelper;
 import de.developer66.main.MainView;
 import de.developer66.util.DoughnutChart;
+import de.developer66.util.EntryCategorieCount;
+import de.developer66.util.Jahresverlauf;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

@@ -1,4 +1,4 @@
-package de.developer66.main;
+package de.developer66.helper;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,6 +16,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
+import de.developer66.main.Error;
+import de.developer66.main.MainView;
+import de.developer66.util.EintragFiles;
+import de.developer66.util.Entry;
+import de.developer66.util.EntryCategorieCount;
+import de.developer66.util.Jahresverlauf;
+import de.developer66.util.Kategorie;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;

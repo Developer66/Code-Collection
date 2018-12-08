@@ -10,12 +10,12 @@ import org.fxmisc.flowless.VirtualizedScrollPane;
 import org.fxmisc.richtext.CodeArea;
 
 import de.developer66.codearea.CustomCodeArea;
-import de.developer66.main.DBHelper;
-import de.developer66.main.EintragFiles;
-import de.developer66.main.Entry;
+import de.developer66.helper.DBHelper;
 import de.developer66.main.GifDecoder;
-import de.developer66.main.Kategorie;
 import de.developer66.main.MainView;
+import de.developer66.util.EintragFiles;
+import de.developer66.util.Entry;
+import de.developer66.util.Kategorie;
 import javafx.animation.Interpolator;
 import javafx.animation.Transition;
 import javafx.embed.swing.SwingFXUtils;
