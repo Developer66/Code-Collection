@@ -52,9 +52,11 @@ This project is licensed under the Apache License 2.0 License - see the [LICENSE
 
 ## Acknowledgments
 
-* JMetro
+* [GitHub](https://github.com/JFXtras/jfxtras-styles) - JMetro
 * BorderlessScene
-* FilterTable
+* [GitHub](https://github.com/jhsheets/javafx-filterable-table-columns) - FilterTable
 * H2 Java Library
 * RichText
 * JsonParser
+* [Stackoverflow](https://stackoverflow.com/a/52828864/8087490) - Toast
+* [Stackoverflow](https://stackoverflow.com/a/24134992/8087490) - DoughnutChart 
