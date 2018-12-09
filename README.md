@@ -52,11 +52,11 @@ This project is licensed under the Apache License 2.0 License - see the [LICENSE
 
 ## Acknowledgments
 
-* [GitHub](https://github.com/JFXtras/jfxtras-styles) - JMetro
-* BorderlessScene
-* [GitHub](https://github.com/jhsheets/javafx-filterable-table-columns) - FilterTable
-* H2 Java Library
-* RichText
-* JsonParser
-* [Stackoverflow](https://stackoverflow.com/a/52828864/8087490) - Toast
-* [Stackoverflow](https://stackoverflow.com/a/24134992/8087490) - DoughnutChart 
+* [JMetro](https://github.com/JFXtras/jfxtras-styles)
+* [BorderlessScene](https://github.com/NicolasSenetLarson/BorderlessScene)
+* [FilterTable](https://github.com/jhsheets/javafx-filterable-table-columns)
+* [H2](http://www.h2database.com/html/main.html)
+* [RichText](https://github.com/FXMisc/RichTextFX)
+* [JsonParser](https://mvnrepository.com/artifact/org.json/json)
+* [Toast](https://stackoverflow.com/a/52828864/8087490)
+* [DoughnutChart](https://stackoverflow.com/a/24134992/8087490) 
